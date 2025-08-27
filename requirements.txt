@@ -1,0 +1,4 @@
+ultralytics>=8.0.20
+gradio>=3.40
+opencv-python
+
