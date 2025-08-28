@@ -5,7 +5,7 @@ import torch
 desc = """
 **TEKNOFEST Artificial Intelligence in Aviation Competition**
 
-This test is built on the **YOLOv8 architecture** and further improved through **fine-tuning**. Developed within the scope of the TEKNOFEST Artificial Intelligence in Aviation Competition, it is designed to perform object detection and classification on aerial imagery with high accuracy.
+This model is built on the **YOLOv8 architecture** and further improved through **fine-tuning**. Developed within the scope of the TEKNOFEST Artificial Intelligence in Aviation Competition, it is designed to perform object detection and classification on aerial imagery with high accuracy.
 
 ## Key Features
 - YOLOv8-based modern object detection  
