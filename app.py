@@ -4,7 +4,7 @@ import torch
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model.to(device)
 
-model = YOLO("modelv12.pt")
+model = YOLO("model.pt")
 
 def predict(image):
     results = model(image, device=device)  # inference cihazını belirt
