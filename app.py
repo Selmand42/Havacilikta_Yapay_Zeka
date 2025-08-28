@@ -3,17 +3,16 @@ from ultralytics import YOLO
 import torch
 
 desc = """
-This model is built on the YOLOv8 architecture and further improved through fine-tuning. Developed within the scope of the TEKNOFEST Artificial Intelligence in Aviation Competition, it is designed to perform object detection and classification on aerial imagery with high accuracy.
+# QuadAI YOLOv8
+**TEKNOFEST Artificial Intelligence in Aviation Competition**
 
-Key Features
+This model is built on the **YOLOv8 architecture** and further improved through **fine-tuning**. Developed within the scope of the TEKNOFEST Artificial Intelligence in Aviation Competition, it is designed to perform object detection and classification on aerial imagery with high accuracy.
 
-YOLOv8-based modern object detection
-
-Fine-tuned on competition-specific datasets
-
-Optimized for aviation scenarios
+## Key Features
+- YOLOv8-based modern object detection  
+- Fine-tuned on competition-specific datasets  
+- Optimized for aviation scenarios  
 """
-
 
 model = YOLO("model.pt")
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -28,7 +27,7 @@ demo = gr.Interface(
     fn=predict,
     inputs=gr.Image(type="numpy"),
     outputs=gr.Image(type="numpy"),
-    title="QuadAI YOLOv8 TEKNOFEST Artificial Intelligence in Aviation Competition",
+    title="QuadAI YOLOv8",
     description=desc,
     examples=[
         ["Frames/frame1.jpg"],
