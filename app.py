@@ -1,10 +1,11 @@
 import gradio as gr
 from ultralytics import YOLO
 import torch
-device = "cuda" if torch.cuda.is_available() else "cpu"
-model.to(device)
+
 
 model = YOLO("model.pt")
+device = "cuda" if torch.cuda.is_available() else "cpu"
+model.to(device)
 
 def predict(image):
     results = model(image, device=device)  # inference cihazını belirt
