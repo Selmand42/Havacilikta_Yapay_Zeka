@@ -18,11 +18,11 @@ demo = gr.Interface(
     title="YOLO Detection",
     description="Upload an image and get YOLO detection results",
     examples=[
-        ["Frames/frames1.jpg"],
-        ["Frames/frames2.jpg"],
-        ["Frames/frames3.jpg"],
-        ["Frames/frames4.jpg"],
-        ["Frames/frames5.jpg"]
+        ["Frames/frame1.jpg"],
+        ["Frames/frame2.jpg"],
+        ["Frames/frame3.jpg"],
+        ["Frames/frame4.jpg"],
+        ["Frames/frame5.jpg"]
     ]
 )
 
