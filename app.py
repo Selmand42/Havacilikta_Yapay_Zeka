@@ -3,7 +3,6 @@ from ultralytics import YOLO
 import torch
 
 desc = """
-# QuadAI YOLOv8
 **TEKNOFEST Artificial Intelligence in Aviation Competition**
 
 This model is built on the **YOLOv8 architecture** and further improved through **fine-tuning**. Developed within the scope of the TEKNOFEST Artificial Intelligence in Aviation Competition, it is designed to perform object detection and classification on aerial imagery with high accuracy.
